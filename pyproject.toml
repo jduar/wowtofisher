@@ -1,0 +1,27 @@
+[tool.black]
+line-length = 120
+target_version = ['py311']
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+force-exclude = true
+show-fixes = true
+ignore = ["ANN204", "ANN101"]
+select = [
+    "ANN",
+    "B",
+    "C40",
+    "E",
+    "ERA",
+    "F",
+    "G",
+    "I",
+    "N",
+    "PTH",
+    "S",
+    "SIM",
+    "T2",
+    "TCH",
+    "W",
+]
