@@ -7,9 +7,7 @@ line-length = 120
 target-version = "py311"
 force-exclude = true
 show-fixes = true
-ignore = ["ANN204", "ANN101"]
 select = [
-    "ANN",
     "B",
     "C40",
     "E",
